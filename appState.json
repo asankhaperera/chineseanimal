@@ -1,0 +1,101 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "588d35e5-86f3-4197-997c-df3b350be448": {
+        "id": "588d35e5-86f3-4197-997c-df3b350be448",
+        "parent": null,
+        "name": "ChineseAnimal.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "ChineseAnimal.py",
+        "cursor": {
+          "lineNumber": 39,
+          "column": 47
+        },
+        "config": {
+          "runtime": "python3.8",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "ChineseAnimal"
+        },
+        "triggers": [
+          {
+            "resourceName": "alexaSK88308b7fa94e40c7973093e000e1409f",
+            "config": {}
+          }
+        ],
+        "testCases": {
+          "b8182190-36a6-415d-945e-5b06a7cf4cdd": {
+            "id": "b8182190-36a6-415d-945e-5b06a7cf4cdd",
+            "name": "Test event",
+            "functionId": "588d35e5-86f3-4197-997c-df3b350be448",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      }
+    },
+    "openFiles": [
+      "588d35e5-86f3-4197-997c-df3b350be448"
+    ],
+    "currentFileId": "588d35e5-86f3-4197-997c-df3b350be448",
+    "resources": {
+      "alexaSK88308b7fa94e40c7973093e000e1409f": {
+        "name": "alexaSK88308b7fa94e40c7973093e000e1409f",
+        "type": "ALEXA",
+        "config": {
+          "type": 1,
+          "verifiedID": true,
+          "skillID": "amzn1.ask.skill.88308b7f-a94e-40c7-9730-93e000e1409f",
+          "applicationID": ""
+        }
+      }
+    },
+    "customTemplate": {
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "ask_sdk_core": {
+          "name": "ask_sdk_core",
+          "version": "1.13.0",
+          "dev": false,
+          "language": "python"
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "ChineseAnimal",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "python",
+    "platformRegions": {},
+    "lastSave": 1587646308134
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "chineseanimal",
+      "url": "https://github.com/asankhaperera/chineseanimal"
+    }
+  }
+}
