@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "ChineseAnimal.py",
         "cursor": {
-          "lineNumber": 39,
-          "column": 47
+          "lineNumber": 45,
+          "column": 1
         },
         "config": {
           "runtime": "python3.8",
@@ -53,6 +53,24 @@
           "skillID": "amzn1.ask.skill.88308b7f-a94e-40c7-9730-93e000e1409f",
           "applicationID": ""
         }
+      },
+      "ddbChineseAnimal": {
+        "name": "ddbChineseAnimal",
+        "type": "DynamoDB",
+        "config": {
+          "mode": 1,
+          "table": {
+            "arn": "arn:aws:dynamodb:us-east-1:263248768798:table/ChineseAnimal",
+            "name": "ChineseAnimal",
+            "partitionKey": "BirthYear",
+            "partitionKeyType": "N",
+            "hasSortKey": false,
+            "sortKey": "",
+            "sortKeyType": "S",
+            "payPerRequest": true,
+            "mode": 1
+          }
+        }
       }
     },
     "customTemplate": {
@@ -77,6 +95,13 @@
           "version": "1.13.0",
           "dev": false,
           "language": "python"
+        },
+        "boto3": {
+          "name": "boto3",
+          "language": "python",
+          "version": "1.12.27",
+          "dev": true,
+          "notRemovable": false
         }
       }
     }
@@ -89,7 +114,7 @@
     "platform": "AWS",
     "language": "python",
     "platformRegions": {},
-    "lastSave": 1587646308134
+    "lastSave": 1587646738494
   },
   "VCS_STATE": {
     "provider": "GitHub",
